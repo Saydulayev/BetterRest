@@ -7,6 +7,7 @@
         </td>
     </tr>
 </table>
+                
 # BetterRest Sleep Calculator App
 
 The Better Rest Sleep Calculator is an iOS app built using SwiftUI that helps you optimize your sleep schedule by suggesting an ideal bedtime based on your wake-up time, desired sleep duration, and daily coffee intake.
@@ -19,10 +20,6 @@ The Better Rest Sleep Calculator is an iOS app built using SwiftUI that helps yo
 - Calculate and display your recommended bedtime based on your inputs.
 - Receive an alert with the calculated bedtime and suggestions.
 
-## Screenshots
-
-![Screenshot 1](/screenshots/screenshot1.png)
-![Screenshot 2](/screenshots/screenshot2.png)
 
 ## Getting Started
 
