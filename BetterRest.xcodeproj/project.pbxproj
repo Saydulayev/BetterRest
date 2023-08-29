@@ -12,6 +12,7 @@
 		C023E51A2A9CB87400BD49B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C023E5192A9CB87400BD49B0 /* Assets.xcassets */; };
 		C023E51D2A9CB87400BD49B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C023E51C2A9CB87400BD49B0 /* Preview Assets.xcassets */; };
 		C0251B9A2A9DF03700A70C3C /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C0251B992A9DF03700A70C3C /* SleepCalculator.mlmodel */; };
+		C0251B9D2A9E07E800A70C3C /* test.GIF in Resources */ = {isa = PBXBuildFile; fileRef = C0251B9C2A9E07E800A70C3C /* test.GIF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C023E5192A9CB87400BD49B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C023E51C2A9CB87400BD49B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C0251B992A9DF03700A70C3C /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		C0251B9C2A9E07E800A70C3C /* test.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.GIF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				C023E5152A9CB87200BD49B0 /* BetterRestApp.swift */,
 				C023E5172A9CB87200BD49B0 /* ContentView.swift */,
 				C0251B992A9DF03700A70C3C /* SleepCalculator.mlmodel */,
+				C0251B9B2A9E07D400A70C3C /* gif */,
 				C023E5192A9CB87400BD49B0 /* Assets.xcassets */,
 				C023E51B2A9CB87400BD49B0 /* Preview Content */,
 			);
@@ -68,6 +71,14 @@
 				C023E51C2A9CB87400BD49B0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0251B9B2A9E07D400A70C3C /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				C0251B9C2A9E07E800A70C3C /* test.GIF */,
+			);
+			path = gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0251B9D2A9E07E800A70C3C /* test.GIF in Resources */,
 				C023E51D2A9CB87400BD49B0 /* Preview Assets.xcassets in Resources */,
 				C023E51A2A9CB87400BD49B0 /* Assets.xcassets in Resources */,
 			);
