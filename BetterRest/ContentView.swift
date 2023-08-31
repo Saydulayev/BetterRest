@@ -52,16 +52,29 @@ struct ContentView: View {
                     Text("Daily coffee intake")
                         .font(.headline)
                 }
-                Section {
-                    Text(calculateBedtime())
-                        .font(.largeTitle).bold()
-                        .padding(.vertical)
-                } header: {
-                    Text("Recommended Bedtime:")
-                        
+                ZStack {
+                    AnimationView()
+                        .frame(width: 300, height: 300)
+                    
+                    
+                    VStack {
+                        Text("Recommended Bedtime:")
+                            .font(.headline)
+                        Spacer()
+                        Text(calculateBedtime())
+                            .font(.system(size: 40))
+                            .bold()
+                            .padding(.vertical)
+                            .foregroundColor(.black)
+                            .shadow(radius: 5)
+                        Spacer()
+                    }
                 }
             }
-            .navigationTitle("Sleep Time")
+            .navigationBarTitle("Sleep Time", displayMode: .inline)
+            
+            .foregroundStyle(.primary)
+            
         }
     }
     
