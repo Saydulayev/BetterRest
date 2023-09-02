@@ -3,7 +3,7 @@
 <table border=0>
     <tr>
         <td>
-            <image src=https://github.com/Saydulayev/BetterRest/blob/main/BetterRest/gif/test.GIF width=230 align=center>
+            <image src=https://github.com/Saydulayev/BetterRest/blob/main/BetterRest/gif/Final1693647344.gif width=230 align=center>
         </td>
     </tr>
 </table>
